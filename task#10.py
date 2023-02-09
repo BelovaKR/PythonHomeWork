@@ -12,7 +12,8 @@ count_2 = 0
 print('Введите количество монет')
 n = int(input())
 for _ in range(n):
-    value = int(input("Введите значение: орел = 1, решка = 0 "))
+    print("Введите значение: орел = 1, решка = 0 ")
+    value = int(input())
     if value == 0:
         count_1 += 1
     elif value == 1:
